@@ -1,12 +1,12 @@
 # Minimarket
 
 Aplicația are rolul de a gestiona produsele unui magazin alimentar virtual.  
-Programul permite administrarea stocului de produse alimentare și nealimentare, realizarea vânzărilor și calcularea valorii totale a stocului disponibil.
+Programul permite administrarea stocului de produse alimentare, realizarea vânzărilor și calcularea valorii totale a stocului disponibil.
 
 ## 1. Adăugare produs
 Pentru fiecare produs se vor introduce:
 - numele produsului
-- categoria (ex: aliment, băutură, igienă etc.)
+- categoria (ex: aliment, băutură)
 - prețul
 - cantitatea disponibilă
 
