@@ -1,49 +1,36 @@
-# 🛒 Minimarket App
+# Minimarket
 
-O aplicație consolă eficientă pentru gestionarea stocului și procesarea vânzărilor într-un magazin alimentar virtual.
-
-## 📋 Descriere
-Acest proiect are rolul de a automatiza gestiunea produselor, permițând utilizatorului să monitorizeze stocurile în timp real, să realizeze vânzări și să calculeze valoarea totală a inventarului.
+Aplicația are rolul de a gestiona produsele unui magazin alimentar virtual.  
+Programul permite administrarea stocului de produse alimentare, realizarea vânzărilor și calcularea valorii totale a stocului disponibil.
 
 ---
 
-## 🚀 Funcționalități Principale
-
-### 1. ➕ Adăugare Produs
-Sistemul permite înregistrarea de noi articole în baza de date prin colectarea următoarelor informații:
+## 1. Adăugare produs
+Pentru fiecare produs se vor introduce:
 * **Numele produsului**
 * **Categoria** (ex: aliment, băutură)
-* **Prețul** unitar
-* **Cantitatea** disponibilă în depozit
+* **Prețul**
+* **Cantitatea disponibilă**
 
-### 2. 📦 Afișare Produse
-Vizualizarea rapidă a întregului inventar:
-* Listarea completă a tuturor produselor.
-* Detalii specifice pentru fiecare item: `Nume | Categorie | Preț | Stoc`.
+## 2. Afișare produse
+Aplicația va permite:
+* **Listarea** tuturor produselor existente în magazin
+* **Afișarea detaliilor** fiecărui produs (nume, categorie, preț, cantitate)
 
-### 3. 🔍 Căutare Produs
-Funcție de filtrare pentru identificarea rapidă a bunurilor:
-* Căutare după **nume**.
-* Validarea existenței în listă.
-* Afișarea automată a detaliilor sau a unui mesaj de eroare dacă produsul este inexistent.
+## 3. Căutare produs
+Aplicația va permite:
+* **Căutare după nume**
+* **Verificarea existenței** produsului în listă
+* **Afișarea informațiilor** despre produsul găsit
+* **Afișarea unui mesaj** corespunzător dacă produsul nu există
 
-### 4. 💰 Vânzare Produs
-Modulul de tranzacționare care asigură integritatea stocului:
-* **Verificare stoc:** Aplicația verifică dacă există suficiente unități înainte de a procesa vânzarea.
-* **Actualizare automată:** Scăderea cantității vândute din stocul total.
-* **Calcul total:** Afișarea sumei de plată pentru client.
-* **Gestionare erori:** Mesaje de avertizare în cazul în care stocul este insuficient.
+## 4. Vânzare produs
+**Utilizatorul:**
+* Va selecta produsul dorit
+* Va introduce cantitatea dorită
 
----
-
-## 🛠️ Tehnologii Utilizate
-* [Ex: C++ / Java / Python]
-* Lucru cu structuri de date (liste/vectori)
-* Algoritmi de căutare și validare
-
----
-
-## 📖 Cum se folosește
-1. **Rulează** aplicația.
-2. **Alege** o opțiune din meniul principal (1-4).
-3. **Introdu** datele solicitate și urmărește instrucțiunile din consolă.
+**Aplicația:**
+* Va verifica dacă există suficient stoc
+* Va scădea cantitatea vândută
+* Va calcula și afișa valoarea totală a vânzării
+* Va afișa un mesaj de eroare dacă stocul este insuficient
