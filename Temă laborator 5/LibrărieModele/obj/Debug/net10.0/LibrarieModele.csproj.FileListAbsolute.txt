@@ -1,0 +1,11 @@
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\bin\Debug\net10.0\LibrarieModele.deps.json
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\bin\Debug\net10.0\LibrarieModele.dll
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\bin\Debug\net10.0\LibrarieModele.pdb
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\LibrarieModele.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\LibrarieModele.AssemblyInfoInputs.cache
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\LibrarieModele.AssemblyInfo.cs
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\LibrarieModele.csproj.CoreCompileInputs.cache
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\LibrarieModele.dll
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\refint\LibrarieModele.dll
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\LibrarieModele.pdb
+C:\Users\Usera227\Desktop\Temă laborator 5\LibrărieModele\obj\Debug\net10.0\ref\LibrarieModele.dll

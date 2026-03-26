@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="LibrărieModele/LibrarieModele.csproj" />
+  <Project Path="Meniu/Meniu.csproj" />
+  <Project Path="NivelStocareDate/NivelStocareDate.csproj" />
+</Solution>
