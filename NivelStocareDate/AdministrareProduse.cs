@@ -13,11 +13,10 @@ namespace NivelStocareDate
         public AdministrareProduse(string numeFisier)
         {
             this.numeFisier = numeFisier;
-            // Creeaza fisierul daca nu exista
+           
             File.Open(numeFisier, FileMode.OpenOrCreate).Close();
         }
 
-        // EX 1: Salvare in fisier text
         public void AddProdus(Produs p)
         {
             p.Id = GetNextId();
@@ -35,24 +34,25 @@ namespace NivelStocareDate
                 string linie;
                 while ((linie = sr.ReadLine()) != null)
                 {
+                    if (string.IsNullOrWhiteSpace(linie))
+                        continue;
+
                     lista.Add(new Produs(linie));
                 }
             }
             return lista;
         }
 
-        // EX 2: Cautare cu LINQ
         public Produs CautaDupaNume(string nume)
         {
             return GetProduse().FirstOrDefault(p => p.Nume.Equals(nume, StringComparison.OrdinalIgnoreCase));
         }
 
-        // EX 2: Modificare in fisier (Update)
         public bool UpdateProdus(Produs pActualizat)
         {
             var lista = GetProduse();
             bool gasit = false;
-            using (StreamWriter sw = new StreamWriter(numeFisier, false)) // false = overwrite
+            using (StreamWriter sw = new StreamWriter(numeFisier, false)) 
             {
                 foreach (var p in lista)
                 {

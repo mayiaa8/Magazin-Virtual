@@ -71,15 +71,28 @@ namespace Meniu
             Console.Write("Introduceti numele: ");
             string n = Console.ReadLine();
 
+            double p;
             Console.Write("Introduceti pretul: ");
-            double p = double.Parse(Console.ReadLine());
+            while (!double.TryParse(Console.ReadLine(), out p) || p < 0)
+            {
+                Console.Write("Eroare! Introduceti un pret valid (numar pozitiv): ");
+            }
 
+            int c;
             Console.Write("Introduceti cantitatea: ");
-            int c = int.Parse(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out c) || c < 0)
+            {
+                Console.Write("Eroare! Introduceti o cantitate valida (numar intreg pozitiv): ");
+            }
 
             Console.WriteLine("Categorii: 1-Aliment, 2-Bautura, 3-Dulciuri, 4-Igiena");
             Console.Write("Alegeti categoria (cifra): ");
-            CategorieProdus cat = (CategorieProdus)int.Parse(Console.ReadLine());
+            int alegereCategorie;
+            while (!int.TryParse(Console.ReadLine(), out alegereCategorie) || !Enum.IsDefined(typeof(CategorieProdus), alegereCategorie))
+            {
+                Console.Write("Categorie invalida! Alegeti din nou (cifra 1-4): ");
+            }
+            CategorieProdus cat = (CategorieProdus)alegereCategorie;
 
             OptiuniProdus opt = OptiuniProdus.Bio | OptiuniProdus.Perisabil;
 
@@ -121,11 +134,13 @@ namespace Meniu
             if (p != null && p.Cantitate >= cant)
             {
                 p.Cantitate = p.Cantitate - cant;
-
                 admin.UpdateProdus(p);
 
+                double valoareTotala = cant * p.Pret;
+
                 Console.WriteLine($"Vandut! Pret per unitate: {p.Pret} RON");
-                Console.WriteLine($"Stoc actualizat!");
+                Console.WriteLine($"Valoare totala a vanzarii: {valoareTotala} RON");
+                Console.WriteLine("Stoc actualizat cu succes!");
             }
             else
             {

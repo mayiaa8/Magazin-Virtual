@@ -24,7 +24,7 @@ namespace LibrarieModele
             Id = id; Nume = nume; Categorie = cat; Pret = pret; Cantitate = cant; Optiuni = opt;
         }
 
-        // EX 1 & 2: Constructor pentru incarcare din fisier text
+       
         public Produs(string linieFisier)
         {
             var date = linieFisier.Split(SEPARATOR);
@@ -44,7 +44,7 @@ namespace LibrarieModele
         public string Info() => $"ID: {Id} | {Nume} ({Categorie}) | Pret: {Pret} | Stoc: {Cantitate} | Optiuni: {Optiuni}";
     }
 
-    // EX 3: A doua entitate - Angajat
+    
     public class Angajat
     {
         public int Id { get; set; }

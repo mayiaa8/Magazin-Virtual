@@ -1,3 +1,6 @@
 1;mere;Aliment;6;11;Bio, Perisabil
 2;mere;Aliment;6;20;Bio, Perisabil
 3;mere;Aliment;6;20;Bio, Perisabil
+4;mere;Aliment;6;20;Bio, Perisabil
+5;cola;Bautura;13;14;Bio, Perisabil
+6;sapun;Igiena;5;8;Bio, Perisabil
