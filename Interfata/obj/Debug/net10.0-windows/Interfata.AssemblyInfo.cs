@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Interfata")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2146d812c6ab3d7da04f0c2a4e98bac1d85fa397")]
 [assembly: System.Reflection.AssemblyProductAttribute("Interfata")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Interfata")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

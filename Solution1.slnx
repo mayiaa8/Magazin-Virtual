@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="../Magazin-Virtual/LibrărieModele/LibrarieModele.csproj" />
-  <Project Path="../Magazin-Virtual/Meniu/Meniu.csproj" />
-  <Project Path="../Magazin-Virtual/NivelStocareDate/NivelStocareDate.csproj" />
   <Project Path="Interfata/Interfata.csproj" Id="5de7f274-274a-4fdf-8861-7eaf5f9b5561" />
+  <Project Path="LibrărieModele/LibrarieModele.csproj" />
+  <Project Path="Meniu/Meniu.csproj" />
+  <Project Path="NivelStocareDate/NivelStocareDate.csproj" />
 </Solution>

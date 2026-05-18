@@ -44,18 +44,18 @@
   "libraries": {
     "LibrarieModele/1.0.0": {
       "type": "project",
-      "path": "../../Magazin-Virtual/LibrărieModele/LibrarieModele.csproj",
-      "msbuildProject": "../../Magazin-Virtual/LibrărieModele/LibrarieModele.csproj"
+      "path": "../LibrărieModele/LibrarieModele.csproj",
+      "msbuildProject": "../LibrărieModele/LibrarieModele.csproj"
     },
     "Meniu/1.0.0": {
       "type": "project",
-      "path": "../../Magazin-Virtual/Meniu/Meniu.csproj",
-      "msbuildProject": "../../Magazin-Virtual/Meniu/Meniu.csproj"
+      "path": "../Meniu/Meniu.csproj",
+      "msbuildProject": "../Meniu/Meniu.csproj"
     },
     "NivelStocareDate/1.0.0": {
       "type": "project",
-      "path": "../../Magazin-Virtual/NivelStocareDate/NivelStocareDate.csproj",
-      "msbuildProject": "../../Magazin-Virtual/NivelStocareDate/NivelStocareDate.csproj"
+      "path": "../NivelStocareDate/NivelStocareDate.csproj",
+      "msbuildProject": "../NivelStocareDate/NivelStocareDate.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usera227\\Desktop\\Solution1\\Interfata\\Interfata.csproj",
+      "projectUniqueName": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\Interfata.csproj",
       "projectName": "Interfata",
-      "projectPath": "C:\\Users\\Usera227\\Desktop\\Solution1\\Interfata\\Interfata.csproj",
+      "projectPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\Interfata.csproj",
       "packagesPath": "C:\\Users\\Usera227\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usera227\\Desktop\\Solution1\\Interfata\\obj\\",
+      "outputPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usera227\\AppData\\Roaming\\NuGet\\NuGet.Config",

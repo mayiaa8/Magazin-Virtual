@@ -9,9 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Magazin-Virtual\LibrărieModele\LibrarieModele.csproj" />
-    <ProjectReference Include="..\..\Magazin-Virtual\Meniu\Meniu.csproj" />
-    <ProjectReference Include="..\..\Magazin-Virtual\NivelStocareDate\NivelStocareDate.csproj" />
+    <ProjectReference Include="..\LibrărieModele\LibrarieModele.csproj" />
+    <ProjectReference Include="..\Meniu\Meniu.csproj" />
+    <ProjectReference Include="..\NivelStocareDate\NivelStocareDate.csproj" />
   </ItemGroup>
 
 </Project>
