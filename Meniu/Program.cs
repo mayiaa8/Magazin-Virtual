@@ -66,6 +66,7 @@ namespace Meniu
             }
         }
 
+
         static void Adaugare()
         {
             Console.Write("Introduceti numele: ");
@@ -99,6 +100,7 @@ namespace Meniu
             admin.AddProdus(new Produs(0, n, cat, p, c, opt));
             Console.WriteLine("Succes: Produsul a fost salvat in fisierul text.");
         }
+
 
         static void Cautare()
         {

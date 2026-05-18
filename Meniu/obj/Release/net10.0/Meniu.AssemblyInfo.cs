@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meniu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca60d866b8ba8125065aea489ed30e830aeb04b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meniu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meniu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

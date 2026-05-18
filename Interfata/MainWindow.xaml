@@ -1,0 +1,162 @@
+﻿<Window x:Class="Interfata.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="🏪 Gestionare Minimarket - Magazin Virtual" Height="650" Width="900"
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" Background="#F3F4F6">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#374151"/>
+            <Setter Property="Margin" Value="0,0,0,4"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="7"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Margin" Value="0,0,0,12"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="RadioButton">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#374151"/>
+            <Setter Property="Margin" Value="0,3,0,3"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="9"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="0,4,0,8"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="310"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="White" CornerRadius="8" Padding="15" Margin="0,0,15,0">
+            <Border.Effect>
+                <DropShadowEffect Color="#9CA3AF" BlurRadius="10" ShadowDepth="1" Opacity="0.2"/>
+            </Border.Effect>
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto" PanningMode="VerticalOnly">
+                <StackPanel>
+                    <TextBlock Text="📦 Adăugare Produs Nou" FontSize="16" FontWeight="Bold" Foreground="#1E40AF" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Nume Produs:"/>
+                    <TextBox x:Name="txtNume" Background="#F9FAFB"/>
+
+                    <TextBlock Text="Preț (RON):"/>
+                    <TextBox x:Name="txtPret" Background="#F9FAFB"/>
+
+                    <TextBlock Text="Cantitate inițială:"/>
+                    <TextBox x:Name="txtCantitate" Background="#F9FAFB"/>
+
+                    <TextBlock Text="Categorie:"/>
+                    <StackPanel Margin="0,0,0,15">
+                        <RadioButton x:Name="rbAliment" Content="Aliment" IsChecked="True" GroupName="Cat"/>
+                        <RadioButton x:Name="rbBautura" Content="Băutură" GroupName="Cat"/>
+                        <RadioButton x:Name="rbDulciuri" Content="Dulciuri" GroupName="Cat"/>
+                        <RadioButton x:Name="rbIgiena" Content="Igiena" GroupName="Cat"/>
+                    </StackPanel>
+
+                    <Button x:Name="btnAdauga" Content="Adaugă în stoc" Background="#2563EB" Click="btnAdauga_Click"/>
+
+                    <Separator Margin="0,10,0,12" Background="#E5E7EB"/>
+
+                    <TextBlock Text="🔍 Căutare Produs" FontSize="16" FontWeight="Bold" Foreground="#1E40AF" Margin="0,0,0,10"/>
+                    <TextBlock Text="Nume căutat:"/>
+                    <TextBox x:Name="txtCautaNume" Background="#F9FAFB"/>
+                    <Button x:Name="btnCauta" Content="Caută după nume" Background="#059669" Click="btnCauta_Click"/>
+
+                    <Separator Margin="0,10,0,12" Background="#E5E7EB"/>
+
+                    <TextBlock Text="🛒 Înregistrare Vânzare" FontSize="16" FontWeight="Bold" Foreground="#1E40AF" Margin="0,0,0,10"/>
+                    <TextBlock Text="Cantitate dorită (selectează din tabel):" FontSize="12" Foreground="#6B7280"/>
+                    <TextBox x:Name="txtCantitateVanzare" Background="#F9FAFB"/>
+                    <Button x:Name="btnVinde" Content="Finalizează vânzarea" Background="#DC2626" Click="btnVinde_Click"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <Border Grid.Column="1" Background="White" CornerRadius="8" Padding="15">
+            <Border.Effect>
+                <DropShadowEffect Color="#9CA3AF" BlurRadius="10" ShadowDepth="1" Opacity="0.2"/>
+            </Border.Effect>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="📋 Listă Produse Disponibile" FontSize="18" FontWeight="Bold" Foreground="#111827" Margin="0,0,0,12"/>
+
+                <DataGrid Grid.Row="1" x:Name="dgvProduse" AutoGenerateColumns="False" IsReadOnly="True" 
+                          SelectionMode="Single" HeadersVisibility="Column" Background="White" 
+                          BorderThickness="1" BorderBrush="#E5E7EB" RowBackground="White" 
+                          AlternatingRowBackground="#F9FAFB" GridLinesVisibility="Horizontal" 
+                          HorizontalGridLinesBrush="#F3F4F6" FontSize="14" RowHeight="36">
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Nume Produs" Binding="{Binding Nume}" Width="*">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Margin" Value="6,0,0,0"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Categorie" Binding="{Binding Categorie}" Width="110">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Preț (RON)" Binding="{Binding Pret, StringFormat={}{0:F2}}" Width="100">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                    <Setter Property="Margin" Value="0,0,8,0"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn Header="Stoc" Binding="{Binding Cantitate}" Width="90">
+                            <DataGridTextColumn.ElementStyle>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

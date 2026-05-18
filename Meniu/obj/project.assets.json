@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\Meniu\\Meniu.csproj",
+      "projectUniqueName": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Meniu.csproj",
       "projectName": "Meniu",
-      "projectPath": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\Meniu\\Meniu.csproj",
+      "projectPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Meniu.csproj",
       "packagesPath": "C:\\Users\\Usera227\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\Meniu\\obj\\",
+      "outputPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usera227\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\LibrarieModele.csproj": {
-              "projectPath": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\LibrarieModele.csproj"
+            "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\LibrarieModele.csproj": {
+              "projectPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\LibrarieModele.csproj"
             },
-            "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\NivelStocareDate\\NivelStocareDate.csproj": {
-              "projectPath": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\NivelStocareDate\\NivelStocareDate.csproj"
+            "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\NivelStocareDate.csproj": {
+              "projectPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\NivelStocareDate.csproj"
             }
           }
         }

@@ -19,19 +19,19 @@ namespace NivelStocareDate
 
         public void AddProdus(Produs p)
         {
-            p.Id = GetNextId();
+            p.Id = GetNextId();  
             using (StreamWriter sw = new StreamWriter(numeFisier, true))
             {
                 sw.WriteLine(p.ConversieLaSirPentruFisier());
             }
         }
 
-        public List<Produs> GetProduse()
+        public List<Produs> GetProduse() 
         {
             List<Produs> lista = new List<Produs>();
             using (StreamReader sr = new StreamReader(numeFisier))
             {
-                string linie;
+                string linie; 
                 while ((linie = sr.ReadLine()) != null)
                 {
                     if (string.IsNullOrWhiteSpace(linie))
@@ -43,30 +43,33 @@ namespace NivelStocareDate
             return lista;
         }
 
+
         public Produs CautaDupaNume(string nume)
         {
             return GetProduse().FirstOrDefault(p => p.Nume.Equals(nume, StringComparison.OrdinalIgnoreCase));
         }
 
+
         public bool UpdateProdus(Produs pActualizat)
         {
-            var lista = GetProduse();
+            var lista = GetProduse(); 
             bool gasit = false;
-            using (StreamWriter sw = new StreamWriter(numeFisier, false)) 
+            using (StreamWriter sw = new StreamWriter(numeFisier, false))  
             {
-                foreach (var p in lista)
+                foreach (var p in lista) 
                 {
                     if (p.Id == pActualizat.Id)
                     {
-                        sw.WriteLine(pActualizat.ConversieLaSirPentruFisier());
+                        sw.WriteLine(pActualizat.ConversieLaSirPentruFisier()); 
                         gasit = true;
                     }
-                    else sw.WriteLine(p.ConversieLaSirPentruFisier());
+                    else sw.WriteLine(p.ConversieLaSirPentruFisier()); 
                 }
             }
             return gasit;
         }
 
         private int GetNextId() => GetProduse().Count > 0 ? GetProduse().Max(p => p.Id) + 1 : 1;
+        
     }
 }

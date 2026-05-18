@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "LibrarieModele": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Executable"
+    },
+    "Profile 2": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Usera227\\Desktop\\Solution1"
+    }
+  }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\LibrarieModele.csproj": {}
+    "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\LibrarieModele.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\LibrarieModele.csproj": {
+    "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\LibrarieModele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\LibrarieModele.csproj",
+        "projectUniqueName": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\LibrarieModele.csproj",
         "projectName": "LibrarieModele",
-        "projectPath": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\LibrarieModele.csproj",
+        "projectPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\LibrarieModele.csproj",
         "packagesPath": "C:\\Users\\Usera227\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usera227\\Desktop\\Temă laborator 5\\LibrărieModele\\obj\\",
+        "outputPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\LibrărieModele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usera227\\AppData\\Roaming\\NuGet\\NuGet.Config",

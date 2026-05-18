@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Meniu\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\AdministrareProduse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NivelStocareDate\\AdministrareProduse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Libr\u0103rieModele\\Produs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Libr\u0103rieModele\\Produs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produs.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Libr\u0103rieModele\\Produs.cs",
+              "RelativeDocumentMoniker": "Libr\u0103rieModele\\Produs.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Libr\u0103rieModele\\Produs.cs",
+              "RelativeToolTip": "Libr\u0103rieModele\\Produs.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T10:25:27.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdministrareProduse.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\AdministrareProduse.cs",
+              "RelativeDocumentMoniker": "NivelStocareDate\\AdministrareProduse.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\AdministrareProduse.cs",
+              "RelativeToolTip": "NivelStocareDate\\AdministrareProduse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T10:25:22.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Program.cs",
+              "RelativeDocumentMoniker": "Meniu\\Program.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Program.cs",
+              "RelativeToolTip": "Meniu\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T10:25:25.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
