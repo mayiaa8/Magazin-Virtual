@@ -1,5 +1,8 @@
 1;Lapte;Aliment;8;0;Bio, Perisabil
-2;Mere;Aliment;4;20;Bio, Perisabil
+2;Mere;Aliment;4;17;Bio, Perisabil
 3;Pâine;Aliment;3;12;Bio, Perisabil
 4;Cola;Bautura;13;10;Bio, Perisabil
 5;Apă;Bautura;7;20;Bio, Perisabil
+6;Pere;Aliment;4;10;Niciuna
+7;Fanta;Bautura;12;20;Niciuna
+8;Sprite;Bautura;13;20;Niciuna

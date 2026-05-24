@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5DE7F274-274A-4FDF-8861-7EAF5F9B5561}|Interfata\\Interfata.csproj|c:\\users\\usera227\\desktop\\magazin-virtual\\interfata\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DE7F274-274A-4FDF-8861-7EAF5F9B5561}|Interfata\\Interfata.csproj|solutionrelative:interfata\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F274-274A-4FDF-8861-7EAF5F9B5561}|Interfata\\Interfata.csproj|c:\\users\\usera227\\desktop\\magazin-virtual\\interfata\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE7F274-274A-4FDF-8861-7EAF5F9B5561}|Interfata\\Interfata.csproj|solutionrelative:interfata\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5DE7F274-274A-4FDF-8861-7EAF5F9B5561}|Interfata\\Interfata.csproj|c:\\users\\usera227\\desktop\\magazin-virtual\\interfata\\interfata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5DE7F274-274A-4FDF-8861-7EAF5F9B5561}|Interfata\\Interfata.csproj|solutionrelative:interfata\\interfata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84154139-9197-79E0-F10B-50139B1F5845}|NivelStocareDate\\NivelStocareDate.csproj|c:\\users\\usera227\\desktop\\magazin-virtual\\nivelstocaredate\\administrareproduse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84154139-9197-79E0-F10B-50139B1F5845}|NivelStocareDate\\NivelStocareDate.csproj|solutionrelative:nivelstocaredate\\administrareproduse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF0D2057-295C-349F-0AB9-23DDB9E72382}|Libr\u0103rieModele\\LibrarieModele.csproj|c:\\users\\usera227\\desktop\\magazin-virtual\\libr\u0103riemodele\\produs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF0D2057-295C-349F-0AB9-23DDB9E72382}|Libr\u0103rieModele\\LibrarieModele.csproj|solutionrelative:libr\u0103riemodele\\produs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E184869E-89C9-8A1E-BE6B-1432F393E12A}|Meniu\\Meniu.csproj|c:\\users\\usera227\\desktop\\magazin-virtual\\meniu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E184869E-89C9-8A1E-BE6B-1432F393E12A}|Meniu\\Meniu.csproj|solutionrelative:meniu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +34,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Interfata\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Interfata\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAuwNAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:19:49.031Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Interfata",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Interfata\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\MainWindow.xaml",
+              "RelativeToolTip": "Interfata\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-18T12:34:13.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdministrareProduse.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\AdministrareProduse.cs",
+              "RelativeDocumentMoniker": "NivelStocareDate\\AdministrareProduse.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\NivelStocareDate\\AdministrareProduse.cs",
+              "RelativeToolTip": "NivelStocareDate\\AdministrareProduse.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:18:51.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Program.cs",
+              "RelativeDocumentMoniker": "Meniu\\Program.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Meniu\\Program.cs",
+              "RelativeToolTip": "Meniu\\Program.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:18:44.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produs.cs",
+              "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Libr\u0103rieModele\\Produs.cs",
+              "RelativeDocumentMoniker": "Libr\u0103rieModele\\Produs.cs",
+              "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Libr\u0103rieModele\\Produs.cs",
+              "RelativeToolTip": "Libr\u0103rieModele\\Produs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:18:38.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interfata.csproj",
               "DocumentMoniker": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\Interfata.csproj",
               "RelativeDocumentMoniker": "Interfata\\Interfata.csproj",
               "ToolTip": "C:\\Users\\Usera227\\Desktop\\Magazin-Virtual\\Interfata\\Interfata.csproj",
               "RelativeToolTip": "Interfata\\Interfata.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-18T10:50:29.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T10:50:29.915Z"
             }
           ]
         }
